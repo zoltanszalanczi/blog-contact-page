@@ -1,0 +1,126 @@
+/* O V E R A L L  S T Y L E  */
+
+html {
+  background-color: rgba(244, 243, 245, 1);
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+/* HEADER STYLE  */
+
+.header{
+  background-color: rgba(98, 0, 234, 1);
+}
+
+.link{
+  color: rgba(244, 243, 245, 1);
+  padding-bottom: 2.6rem;
+  border-bottom: 3px solid;
+  border-color: transparent;
+  
+}
+
+
+.navigation, .address-title, .tel, .mail, button, .footer {
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  line-height: 0.9375rem;
+}
+
+.link:hover {
+  color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,1);
+  opacity: 1;
+
+}
+
+.address-title, .tel, .mail, .brand-name, .student-name {
+  color: rgba(98, 0, 234, 1);
+}
+
+
+/* CONTENT STYLE */
+
+/* Address box style */
+
+iframe {
+  border-radius: 15px;
+}
+
+.address-column, .contact-field-column {
+  background-color: rgba(255,255,255,1);
+  border-radius: 15px;
+}
+
+.address, .contact-field-text {
+  font-weight: normal;
+}
+
+.social-media-link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(98, 0, 234, 1);
+  margin-right: 10px;
+}
+
+.social-media-icon {
+  color: rgba(255,255,255,1);
+  font-size: 1.5rem;
+}
+
+/* Contact box style */
+
+.contact-field-title {
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  
+}
+
+.contact-field-text {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+ 
+}
+
+input {
+  border: none;
+  background-color: rgba(244, 243, 245, 1);
+  font-size: 1.16rem;
+  opacity: 0.25;
+  font-weight: bold;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-bottom: 3px solid rgba(98, 0, 234, 1);
+    opacity: 1;    
+  }
+
+button {
+  background-color: rgba(98, 0, 234, 1);
+  border: none;
+  line-height: 1.25rem;
+  border-radius: 2.083rem;
+}
+
+.submit-button-text {
+  color: rgba(255,255,255,1);
+  font-weight: bold;
+}
+
+
+/* FOOTER STYLE  */
+
+.footer {
+  background-color: rgba(33, 17, 56, 1);
+  color: rgba(178, 172, 186, 1);
+}
+

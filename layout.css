@@ -1,0 +1,137 @@
+/* O V E R A L L  L A Y O U T */
+
+.box {
+  position: absolute;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*HEADER LAYOUT  */
+
+.header {
+  top: 0;
+  width: 100vw;
+  height: 8.88vh;
+}
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 69.375vw;
+  height: 100%;
+  padding-left: 15.3125vw;
+}
+
+.header-logo {
+  width: 10.625vw;
+  height: 5.55vh;
+  padding-top: 1.66vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 27.0625vw;
+  height: 1.66vh;
+  padding-top: 3.66vh;
+}
+
+/* CONTENT LAYOUT  */
+
+
+/* Address box layout  */
+
+.address-column, .contact-field-column {
+  top: 12vh;
+  width: 33.75vw;
+  height: 71.11vh;
+}
+
+.address-column {
+  left: 15.3125vw;
+}
+
+.address-wrapper, .contact-field-wrapper {
+  width: 26.25vw;
+  height: auto;
+  padding-left: 3.75vw;
+  padding-top: 6.66vh;  
+}
+
+iframe{
+  width: 100%;
+  height: 31.11vh;
+}
+
+.address-box{
+  width: 100%;
+  height: 23.33vh;
+  padding-top: 3.33vh;
+}
+
+.address, .address-mail {
+  padding-top: 1.11vh;
+}
+
+.tel, .social-media {
+  padding-top: 3.33vh;
+}
+
+
+/* Contact column layout  */
+
+
+.contact-field-column {
+  right: 15.3125vw;
+}
+
+.contact-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-field-text {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 31.11vh;
+}
+
+.contact-name, .contact-email {
+  height: 5.55vh;
+}
+
+.contact-message{
+  height: 16.66vh;
+}
+
+
+button {
+  width: 100%;
+  height: 5.55vh;
+  margin-top: 3rem;
+}
+
+/* FOOTER LAYOUT  */
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 11.11vh;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 4.75vh;
+}
